@@ -17,11 +17,10 @@ const DATA = [
 
 ReactDOM.render(
   <React.StrictMode>
-    <Background />
     <Today />
     <SerchBox />
-
     <App tasks={DATA} />
+    <Background />
   </React.StrictMode>,
   document.getElementById('root')
 );

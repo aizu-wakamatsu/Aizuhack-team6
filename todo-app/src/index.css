@@ -88,6 +88,8 @@ body {
 }
 .btn.toggle-btn { /* タブ切り替えボタン */
   border-bottom: 0.2rem solid lightgray;
+  width: 30%;
+  display: inline;
 }
 .btn.toggle-btn[aria-pressed="true"] {  /* 現在のタブのボタン */
   text-decoration: underline;

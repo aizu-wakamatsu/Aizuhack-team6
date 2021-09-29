@@ -43,40 +43,40 @@ export default class Background extends React.Component {
         <React.Fragment>
             <p className = "debug">{num}</p>
             <li className = "button">
-                <div className = "button1">
+                <div className = "button1" onClick = {() =>{this.handleChangeImg(1)}}>
                 <button id = "1" onClick = {() =>{this.handleChangeImg(1)}} >1</button>
                 </div>
-                <div className = "button2">
+                <div className = "button2" onClick = {() =>{this.handleChangeImg(2)}}>
                 <button id = "2" onClick = {() =>{this.handleChangeImg(2)}} >2</button>
                 </div>
-                <div className = "button3">
+                <div className = "button3" onClick = {() =>{this.handleChangeImg(3)}}>
                 <button id = "3" onClick = {() =>{this.handleChangeImg(3)}} >3</button>
                 </div>
-                <div className = "button4">
+                <div className = "button4" onClick = {() =>{this.handleChangeImg(4)}}>
                 <button id = "4" onClick = {() =>{this.handleChangeImg(4)}} >4</button>
                 </div>
-                <div className = "button5">
+                <div className = "button5" onClick = {() =>{this.handleChangeImg(5)}}>
                 <button id = "5" onClick = {() =>{this.handleChangeImg(5)}} >5</button>
                 </div>
-                <div className = "button6">
+                <div className = "button6" onClick = {() =>{this.handleChangeImg(6)}}>
                 <button id = "6" onClick = {() =>{this.handleChangeImg(6)}} >6</button>
                 </div>
-                <div className = "button7">
+                <div className = "button7" onClick = {() =>{this.handleChangeImg(7)}}>
                 <button id = "7" onClick = {() =>{this.handleChangeImg(7)} }>7</button>
                 </div>
-                <div className = "button8">
+                <div className = "button8" onClick = {() =>{this.handleChangeImg(8)}}>
                 <button id = "8" onClick = {() =>{this.handleChangeImg(8)} }>8</button>
                 </div>
-                <div className = "button9">
+                <div className = "button9" onClick = {() =>{this.handleChangeImg(9)}}>
                 <button id = "9" onClick = {() =>{this.handleChangeImg(9)}} >9</button>
                 </div>
-                <div className = "button10">
+                <div className = "button10" onClick = {() =>{this.handleChangeImg(10)}}>
                 <button id = "10" onClick = {() =>{this.handleChangeImg(10)}} >10</button>
                 </div>
-                <div className = "button11">
+                <div className = "button11" onClick = {() =>{this.handleChangeImg(11)}}>
                 <button id = "11" onClick = {() =>{this.handleChangeImg(11)}} >11</button>
                 </div>
-                <div className = "button12">
+                <div className = "button12" onClick = {() =>{this.handleChangeImg(12)}}>
                 <button id = "12" onClick = {() =>{this.handleChangeImg(12)}} >12</button>
                 </div>
             </li>
